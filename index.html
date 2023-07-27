@@ -8,15 +8,16 @@
   <meta name="description" content="HTML5 website template">
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
+  <link rel="icon" href="./assets/img/favicon-w.png" sizes="16x16">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 
 <!-- notification for small viewports and landscape oriented smartphones -->
 <div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Global</p>
+  <a class="device-notification--logo">
+    <!-- <img src="assets/img/logo.png" alt="Global">
+    <p>Global</p> -->
   </a>
   <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
 </div>
@@ -26,7 +27,7 @@
     <div id="viewport" class="l-viewport">
       <div class="l-wrapper">
         <header class="header">
-          <a class="header--logo" href="#0">
+          <a class="header--logo">
             <!-- <img src="assets/img/logo.png" alt="Global"> -->
             <p>yanka ribeiro, a machine learning engineer</p>
           </a>
@@ -58,15 +59,15 @@
                 <img src="assets/img/introduction-visual.png" alt="Welcome">
               </div>
               <div class="intro--options">
-                <a href="#0">
+                <a>
                   <h3>academic background</h3>
                   <p>bsc. computer science, minor artificial intelligence</p>
                 </a>
-                <a href="#0">
+                <a>
                   <h3>professional experience</h3>
                   <p>two years of industry expertise, former IBM data scientist, lab researcher at leading university</p>
                 </a>
-                <a href="#0">
+                <a>
                   <h3>areas of interest</h3>
                   <p>deep learning, computer graphics/vision, biomedical computing</p>
                 </a>
@@ -75,7 +76,7 @@
           </li>
           <li class="l-section section">
             <div class="work">
-              <h2>main projects</h2>
+              <h2>MAIN PROJECTS</h2>
               <div class="work--lockup">
                 <ul class="slider">
                   <li class="slider--item slider--item-left">
@@ -129,8 +130,13 @@
           <li class="l-section section">
             <div class="about">
               <div class="about--banner">
-                <h2>We<br>believe in<br>passionate<br>people</h2>
-                <a href="#0">download cv
+                <h2>empowered<br>expertise<br>a nearly<br>self-taught<br>journey</h2>
+                <a href="./assets/cv-en-mar23.pdf" download="yanka-ribeiro-ml-eng.pdf" target="_blank">download cv
+                <!-- <a onclick="var downloadLink = document.createElement('a');
+                downloadLink.href = './assets/cv-en-mar23.pdf';
+                downloadLink.download = 'yanka-ribeiro-ml-eng.pdf';
+                document.body.appendChild(downloadLink);
+                downloadLink.click();" target="_blank">download cv2 -->
                   <span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
                     <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
@@ -142,14 +148,17 @@
                 <img src="assets/img/about-visual.png" alt="About Us">
               </div>
               <div class="about--options">
-                <a href="#0">
-                  <h3>Winners</h3>
+                <a>
+                  <h3>python</h3>
                 </a>
-                <a href="#0">
-                  <h3>Philosophy</h3>
+                <a>
+                  <h3>tensorflow</h3>
                 </a>
-                <a href="#0">
-                  <h3>History</h3>
+                <a>
+                  <h3>gcloud</h3>
+                </a>
+                <a>
+                  <h3>mlops</h3>
                 </a>
               </div>
             </div>
@@ -161,7 +170,7 @@
                   <div class="modal--information">
                     <p>Maceio, Brazil</p>
                     <!-- <a href="mailto:ynk9a@outlook.com">ynk9a@outlook.com</a> -->
-                    <!-- <a href="tel:+148126287560">+48 12 628 75 60</a> -->
+                    <a>telegram: @yrribeiro</a>
                   </div>
                   <ul class="modal--options">
                     <li><a href="https://www.linkedin.com/in/yanka-ribeiro/">linkedin</a></li>
