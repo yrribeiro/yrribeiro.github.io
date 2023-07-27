@@ -1262,16 +1262,16 @@ body {
     background-image: url("../img/python.png")
 }
 
-/*.about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+.about--options>a:nth-child(2) {
+    background-image: url("../img/neural-net.jpg")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/data-center.jpg")
 }
 
 .about--options>a:nth-child(4) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/mlouroboros.png")
 } */
 
 .about--options>a:hover h3 {
