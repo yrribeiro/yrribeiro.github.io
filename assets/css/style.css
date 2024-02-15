@@ -595,6 +595,13 @@ main {
 
 .testimonials-item-title { margin-bottom: 7px; }
 
+.testimonials-item-subtitle {
+  font-size: var(--fs-8);
+  color: var(--light-gray-70);
+  font-weight: var(--fw-300);
+  margin-bottom: 10px;
+}
+
 .testimonials-text {
   color: var(--light-gray);
   font-size: var(--fs-6);
