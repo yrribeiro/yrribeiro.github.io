@@ -164,7 +164,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('.download-cv-btn').addEventListener('click', function() {
     var link = document.createElement('a');
-    link.setAttribute('href', 'assets/cv/cv-en-mar24.pdf');
+    link.setAttribute('href', 'assets/cv/cv.pdf');
     link.setAttribute('target', '_blank');
     link.setAttribute('download', 'cv-ml-eng-yanka.pdf');
 
