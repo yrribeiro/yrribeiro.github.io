@@ -836,9 +836,14 @@ main {
   line-height: 1.6;
 }
 
+.timeline-item .timeline-text a:link,
+.timeline-item .timeline-text a:visited {
+  color: var(--text-gradient-yellow);
+}
+
 
 /**
- * skills 
+ * skills
  */
 
 .skills-title { margin-bottom: 20px; }
@@ -1514,7 +1519,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     position: relative;
     right: 0;
     background: var(--border-gradient-onyx);
-    width: 150px;
+    width: 250px;
     height: 60px;
     border-radius: 8px;
     display: flex;
